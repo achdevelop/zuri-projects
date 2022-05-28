@@ -3,7 +3,8 @@
 # count_words("The cake is done. It is a big cake!") 
 # --> {"cake":2, "big":1, "is":2, "the":1, "a":1, "it":1}
 
-file="/Users/alejandro.chacon/Documents/code/git-zuri/zuri-projects/readfile/story.txt"
+# update text file path
+file="/code/git-zuri/zuri-projects/readfile/story.txt"
 
 def read_file_content(filename):
     # [assignment] Add your code here 
@@ -11,7 +12,6 @@ def read_file_content(filename):
         data = file.read().replace('\n','')
     return data
 
-#print(read_file_content("/Users/alejandro.chacon/Documents/code/git-zuri/zuri-projects/readfile/story.txt"))
 def count_words(filename):
     text = read_file_content(filename)
     # [assignment] Add your code here
