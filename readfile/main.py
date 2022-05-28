@@ -28,4 +28,5 @@ def count_words(filename):
             word_dict[word] = 1
     
     return word_dict
-print(count_words())
+
+print(count_words(file))
