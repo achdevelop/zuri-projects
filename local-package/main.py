@@ -36,12 +36,10 @@ while(play):
                 print("The PC is the winner!")
                 theResult(userChoice,pcChoice)
                 play=False
-            elif (userChoice=="R" and pcChoice=="P") or (userChoice=="R" and pcChoice=="S") or (userChoice=="S" and pcChoice=="P"):
+            else:
                 print("You are the winner!")
                 theResult(userChoice,pcChoice)
                 play=False
-            else:
-                print("Something is wrong!!!")
 
     else:
         print("Wrong entry, please Try again!")
