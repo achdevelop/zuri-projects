@@ -13,5 +13,8 @@ pip3 install django
 python3 -m django --version
 output: 4.0.5
 
+#create project with my username
+jango-admin startproject my-username
+
 # deactivate venv
 deactivate
